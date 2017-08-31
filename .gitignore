@@ -1,0 +1,9 @@
+.DS_Store
+**/.DS_Store
+node_modules
+/node_modules
+**/node_modules
+images/*.jpg
+public/img/*_resized.jpg
+resized/*
+cookies/*.json

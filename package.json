@@ -1,0 +1,16 @@
+{
+  "name": "CameraControl",
+  "version": "1.0.0",
+  "description": "My camera control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charles Haarman",
+  "license": "MIT",
+  "dependencies": {
+    "another-telnet-client": "^0.1.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
