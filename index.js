@@ -36,7 +36,7 @@ app.get( '/control', function ( req, res ) {
     var action = 'Shoot\r\n';
 
 	var host 		= '0.tcp.ngrok.io';
-	var sockPort 	= parseInt(req.body.port) || 0;
+	var sockPort 	= parseInt(req.query.port) || 0;
 
     sock = new net.Socket();
 

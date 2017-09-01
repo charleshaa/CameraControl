@@ -218,8 +218,8 @@ const sendAction = ev => {
         .data( 'command' );
 
     setTimeout( function () {
-        
-        $.get( '/control?action=' + action, function ( data ) {
+
+        $.get( '/control?action=' + action + '&port=' + settings.port, function ( data ) {
 
             setTimeout( function () {
 
